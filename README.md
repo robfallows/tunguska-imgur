@@ -8,6 +8,6 @@ This is mainly to aid in understanding the mechanics of putting together an OAut
 
 The trickier parts of the codebase are (hopefully) annotated well enough to comprehend what's going on in this bit of Meteor Magic.
 
-There's an accompanying blog article [here]() which should be read prior to forking and hacking!
+There's an accompanying blog article [here](http://robfallows.github.io/2015/12/17/writing-an-oauth-2-handler.html) which should be read prior to forking and hacking!
 
 Enjoy :smile:
