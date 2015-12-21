@@ -8,6 +8,6 @@ However, the package has been written to aid in understanding the mechanics of p
 
 There's an [accompanying blog article](http://robfallows.github.io/2015/12/17/writing-an-oauth-2-handler.html) which should be read prior to forking and hacking!
 
-See also the [complementary ui package](https://github.com/robfallows/tunguska-accounts-imgur): `tunguska:account-imgur`.
+See also the [complementary login package](https://github.com/robfallows/tunguska-accounts-imgur): `tunguska:accounts-imgur`.
 
 Enjoy :smile:
