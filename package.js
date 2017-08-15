@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'tunguska:imgur',
+  name: 'apinf:fiware',
   version: '0.0.1',
-  summary: 'OAuth handler for Imgur',
-  git: 'https://github.com/robfallows/tunguska-imgur',
+  summary: 'OAuth handler for Fiware',
+  git: 'https://github.com/apinf/apinf-idm',
   documentation: 'README.md'
 });
 
@@ -16,12 +16,12 @@ Package.onUse(function(api) {
   api.use(['underscore', 'service-configuration'], ['client', 'server']);
   api.use(['random', 'templating'], 'client');
 
-  api.export('Imgur');
+  api.export('Fiware');
 
   api.addFiles(
-    ['imgur_configure.html', 'imgur_configure.js'],
+    ['fiware_configure.html', 'fiware_configure.js'],
     'client');
 
-  api.addFiles('imgur_server.js', 'server');
-  api.addFiles('imgur_client.js', 'client');
+  api.addFiles('fiware_server.js', 'server');
+  api.addFiles('fiware_client.js', 'client');
 });
